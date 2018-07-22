@@ -29,9 +29,6 @@ Enemy.prototype.update = function(dt) {
         player.y +30 > this.y)
     {
 		//to resrart the game from the begin
-		allEnemies.forEach(function(item){
-			item.x= -100;
-		});
         player.x = 200;
         player.y= 400;
     }
